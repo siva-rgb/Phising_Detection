@@ -1,0 +1,17 @@
+[ 2025-05-04 12:00:27,324 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-05-04 12:00:27,325 ] 97 werkzeug - INFO -  * Debugger PIN: 403-538-128
+[ 2025-05-04 12:00:31,422 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2025-05-04 12:00:31,422 ] 40 root - INFO - Exporting data from mongodb
+[ 2025-05-04 12:00:31,422 ] 47 root - INFO - Saving exported data into feature store file path: artifacts/05_04_2025_12_00_26/data_ingestion
+[ 2025-05-04 12:00:40,887 ] 49 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2025-05-04 12:00:40,921 ] 75 root - INFO - Got the data from mongodb
+[ 2025-05-04 12:00:40,922 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2025-05-04 12:00:40,922 ] 251 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2025-05-04 12:00:40,922 ] 254 root - INFO - Initiated data validation for the dataset
+[ 2025-05-04 12:00:40,954 ] 78 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2025-05-04 12:00:40,969 ] 109 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2025-05-04 12:00:40,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 12:00:40] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-05-04 12:00:41,102 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 12:00:41] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-05-04 12:00:41,103 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 12:00:41] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-05-04 12:00:41,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 12:00:41] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=xWEzDQo4RqcHeh71Kz6Z HTTP/1.1" 200 -
+[ 2025-05-04 12:04:12,960 ] 97 werkzeug - INFO -  * Detected change in '/home/siva/Desktop/Phising Detection/Phising_Detection/src/components/data_transformation.py', reloading

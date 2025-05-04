@@ -1,0 +1,13 @@
+[ 2025-05-04 11:32:56,638 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-05-04 11:32:56,643 ] 97 werkzeug - INFO -  * Debugger PIN: 403-538-128
+[ 2025-05-04 11:35:19,042 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:35:19] "GET / HTTP/1.1" 200 -
+[ 2025-05-04 11:35:19,145 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:35:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:16,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:16] "GET /predict HTTP/1.1" 200 -
+[ 2025-05-04 11:36:16,549 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:16] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:16,551 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:16] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:18,196 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:18] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:18,312 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:41,447 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:41] "GET /predict HTTP/1.1" 200 -
+[ 2025-05-04 11:36:41,489 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:41,490 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:41] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2025-05-04 11:36:42,403 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:36:42] "[33mGET /script.js HTTP/1.1[0m" 404 -

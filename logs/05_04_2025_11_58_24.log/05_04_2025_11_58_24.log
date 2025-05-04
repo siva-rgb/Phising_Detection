@@ -1,0 +1,14 @@
+[ 2025-05-04 11:58:24,968 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-05-04 11:58:24,968 ] 97 werkzeug - INFO -  * Debugger PIN: 403-538-128
+[ 2025-05-04 11:58:58,930 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2025-05-04 11:58:58,930 ] 40 root - INFO - Exporting data from mongodb
+[ 2025-05-04 11:58:58,930 ] 47 root - INFO - Saving exported data into feature store file path: artifacts/05_04_2025_11_58_24/data_ingestion
+[ 2025-05-04 11:59:03,940 ] 49 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2025-05-04 11:59:03,976 ] 75 root - INFO - Got the data from mongodb
+[ 2025-05-04 11:59:03,976 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2025-05-04 11:59:03,976 ] 251 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2025-05-04 11:59:03,976 ] 254 root - INFO - Initiated data validation for the dataset
+[ 2025-05-04 11:59:03,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:59:03] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-05-04 11:59:04,147 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:59:04] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-05-04 11:59:04,148 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:59:04] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-05-04 11:59:04,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/May/2025 11:59:04] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=79tNIv4ouf2amekt3DhN HTTP/1.1" 200 -
